@@ -2,6 +2,5 @@ kured:
   configuration:
     period: 30m0s
     prometheusUrl: http://prometheus.kube-devops.svc.cluster.local:9090
-    rebootDays: [tue,wed,thu]
     startTime: 9am
     endTime: 3pm
